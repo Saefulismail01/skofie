@@ -99,7 +99,7 @@ const DashboardPage = () => {
           </div>
 
           {/* Quick Stats */}
-          <div className="grid md:grid-cols-4 gap-4 mb-8">
+          <div className="grid md:grid-cols-3 gap-4 mb-8">
             <Card className="glass-effect">
               <CardContent className="p-4">
                 <div className="flex items-center justify-between">
@@ -110,20 +110,6 @@ const DashboardPage = () => {
                     </p>
                   </div>
                   <i className="fas fa-book text-emerald-500 text-xl"></i>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="glass-effect">
-              <CardContent className="p-4">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-sm text-gray-600">Total Spending</p>
-                    <p className="text-2xl font-bold text-emerald-600" data-testid="total-spent">
-                      Rp {(dashboardData?.total_spent || 0).toLocaleString('id-ID')}
-                    </p>
-                  </div>
-                  <i className="fas fa-credit-card text-emerald-500 text-xl"></i>
                 </div>
               </CardContent>
             </Card>

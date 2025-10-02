@@ -66,7 +66,7 @@ const AuthPage = () => {
 
         const result = await register(formData.email, formData.password, formData.fullName);
         if (result.success) {
-          toast.success('Registrasi berhasil! Selamat datang di GenMoney 🚀');
+          toast.success('Registrasi berhasil! Selamat datang di Skofie 🚀');
           navigate('/dashboard');
         } else {
           toast.error(result.error);
@@ -100,7 +100,7 @@ const AuthPage = () => {
             </div>
           </div>
           <h2 className="text-3xl font-bold text-gray-900 mb-2" data-testid="auth-title">
-            {isLogin ? 'Selamat Datang Kembali!' : 'Join GenMoney Community'}
+            {isLogin ? 'Selamat Datang Kembali!' : 'Join Skofie Community'}
           </h2>
           <p className="text-gray-600" data-testid="auth-subtitle">
             {isLogin 

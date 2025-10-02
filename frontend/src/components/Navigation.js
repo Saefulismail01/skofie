@@ -37,9 +37,9 @@ const Navigation = () => {
             data-testid="logo-link"
           >
             <div className="w-8 h-8 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg flex items-center justify-center text-white font-bold">
-              G
+              S
             </div>
-            <span>GenMoney</span>
+            <span>Skofie</span>
           </Link>
 
           {/* Desktop Navigation */}
